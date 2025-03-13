@@ -20,9 +20,12 @@ body{
     overflow-x: hidden;
     width: 100vw;
     height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 h6{
+    font-size: 1.8rem;
     font-size: 1.8rem;
     color: var(--secondary-color);
     font-family: var(--secondary-font);
@@ -65,25 +68,13 @@ body{
 .wrapper{
     width: 100%;
     background-color: #000000;
+    width: 1920px;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
+nav{
+
+    height: 110px;
     width: 100%;
-    background-color: #000000;
-    z-index: 1000;
-    padding: 10px 0;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-main{
-    width: 100%;
-    padding-top: 10%;
-}
-
-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -460,14 +451,13 @@ nav button:hover{
 .events-carousel {
     display: flex;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
+    height: 550px;
     position: relative;
 }
 
 .item-header {
-    width: 50%;
-    margin-top: 10%;
+    width: 422px;
+    margin-top: 130px;
     z-index: 2;
     position: relative;
 }
@@ -478,7 +468,7 @@ nav button:hover{
 }
 
 .item-description {
-    width: 60%;
+    width: 372px;
     z-index: 2;
     position: relative;
 }
@@ -521,8 +511,7 @@ nav button:hover{
 .item1, .item2, .item3 {
     background-size: cover;
     background-position: top right;
-    padding-left: 5%;
-    height: 100vh;
+    padding-left: 75px;
     position: absolute;
     overflow: hidden;
 }
@@ -530,19 +519,19 @@ nav button:hover{
 .item1 {
     background-image: url(./assets/events-menu1-bg.png);
     z-index: 1;
-    width: 45%;
-    height: 60%;
-    top: 13%;
-    left: 0;
+    width: 900px;
+    height: 450px;
+    top: 70px;
+    left: 0px;
 }
 
 .item2 {
     background-image: url(./assets/events-menu2-bg.png);
     z-index: 2;
-    width: 53%;
-    height: 65%;
-    left: 25%;
-    box-shadow:
+    width: 920px;
+    height: 470px;
+    left: 490;
+    box-shadow: 
         0.5px 0.5px 20px 3px rgba(234, 66, 66, 0.5);
 }
 
@@ -680,6 +669,7 @@ footer{
     font-family: var(--secondary-font);
     color: var(--secondary-color);
     font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .contact-us{
@@ -706,6 +696,8 @@ footer{
     flex-direction: column;
     font-size: 1.3rem;
     margin-left: 2%;
+    font-size: 1.3rem;
+    margin-left: 2%;
 }
 
 .submit{
@@ -718,18 +710,19 @@ footer{
     border: 1px solid rgb(110, 110, 110);
     background: transparent;
     font-family: var(--secondary-font);
-    font-size: 1.2rem;
-    height: 100%;
-    padding: 1.5% 2.5%;
-    padding-left: 10%;
-
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    padding-left: 25px;
 }
 
 .submit button {
     background-color: var(--primary-color);
     padding: 5% 7%;
+    padding: 5% 7%;
     color: var(--secondary-color);
     border-radius: 50px;
+    margin-left: 5%;
     margin-left: 5%;
     cursor: pointer;
     transition: all 0.3s ease ;
@@ -740,6 +733,8 @@ footer{
 }
 
 .conditions{
+    margin-top: 10%;
+    padding-bottom: 2%;
     margin-top: 10%;
     padding-bottom: 2%;
     display: flex;
